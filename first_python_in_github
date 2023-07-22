@@ -1,0 +1,8 @@
+#First python in github
+import pandas as pd
+
+results = {'subjects': ['Tamil', 'English', 'Maths', 'Science', 'Social_Science'], 'marks': [86, 92, 90, 94, 94]}
+results_df = pd.DataFrame.from_dict(results)
+
+print(results_df)
+
